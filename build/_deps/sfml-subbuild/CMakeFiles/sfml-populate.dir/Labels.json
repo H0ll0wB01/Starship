@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/3d30565fa6c4db534e63ee776315057c/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/e2efb4eb071ab9a4bf72b25dd4d42fc4/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFern\u00e1ndezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

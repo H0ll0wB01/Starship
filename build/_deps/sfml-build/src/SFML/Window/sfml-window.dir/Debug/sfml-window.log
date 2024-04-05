@@ -1,0 +1,29 @@
+﻿  1>Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt
+  Clipboard.cpp
+  Context.cpp
+  Cursor.cpp
+  GlContext.cpp
+  GlResource.cpp
+  Joystick.cpp
+  JoystickManager.cpp
+  Keyboard.cpp
+  Mouse.cpp
+  Touch.cpp
+  Sensor.cpp
+  SensorManager.cpp
+  VideoMode.cpp
+  Window.cpp
+  WindowImpl.cpp
+  CursorImpl.cpp
+  ClipboardImpl.cpp
+  WglContext.cpp
+  WglExtensions.cpp
+  InputImpl.cpp
+  Generando código...
+  Compilando...
+  JoystickImpl.cpp
+  SensorImpl.cpp
+  VideoModeImpl.cpp
+  WindowImplWin32.cpp
+  Generando código...
+  sfml-window.vcxproj -> C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\Debug\sfml-window-s-d.lib

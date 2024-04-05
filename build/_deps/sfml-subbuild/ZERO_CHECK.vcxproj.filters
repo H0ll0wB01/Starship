@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-subbuild\CMakeFiles\3d30565fa6c4db534e63ee776315057c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CA4ACF04-B315-3AE3-8BCB-EA449083675C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

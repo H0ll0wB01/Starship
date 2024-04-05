@@ -1,0 +1,19 @@
+﻿  1>Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/System/CMakeLists.txt
+  Clock.cpp
+  Err.cpp
+  Lock.cpp
+  Mutex.cpp
+  Sleep.cpp
+  String.cpp
+  Thread.cpp
+  ThreadLocal.cpp
+  Time.cpp
+  FileInputStream.cpp
+  MemoryInputStream.cpp
+  ClockImpl.cpp
+  MutexImpl.cpp
+  SleepImpl.cpp
+  ThreadImpl.cpp
+  ThreadLocalImpl.cpp
+  Generando código...
+  sfml-system.vcxproj -> C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\Debug\sfml-system-s-d.lib

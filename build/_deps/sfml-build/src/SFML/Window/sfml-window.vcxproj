@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EEFE24CB-24E8-3816-ACA6-FAC944FC9F06}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>sfml-window</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-window.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-window-s-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-window.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-window-s</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-window.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-window-s</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-window.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-window-s</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\Debug\sfml-window-s.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\Release\sfml-window-s.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\MinSizeRel\sfml-window-s.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\RelWithDebInfo\sfml-window-s.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\Starship;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\PRIVATE;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include;C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea" "-BC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build" --check-stamp-file "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea" "-BC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build" --check-stamp-file "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea" "-BC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build" --check-stamp-file "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea" "-BC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build" --check-stamp-file "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-build/src/SFML/Window/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.26\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.26\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Clipboard.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Clipboard.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\ClipboardImpl.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Context.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Context.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Cursor.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Cursor.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\CursorImpl.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Export.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\GlContext.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\GlContext.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\GlResource.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\GlResource.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\ContextSettings.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Event.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\InputImpl.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Joystick.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Joystick.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\JoystickImpl.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\JoystickManager.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\JoystickManager.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Keyboard.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Keyboard.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Mouse.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Mouse.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Touch.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Touch.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Sensor.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Sensor.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\SensorImpl.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\SensorManager.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\SensorManager.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\VideoMode.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\VideoMode.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\VideoModeImpl.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Window.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\Window.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\WindowHandle.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\WindowImpl.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\WindowImpl.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\CursorImpl.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\CursorImpl.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\ClipboardImpl.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\ClipboardImpl.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\WglContext.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\WglContext.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\WglExtensions.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\WglExtensions.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\InputImpl.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\InputImpl.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\JoystickImpl.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\JoystickImpl.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\SensorImpl.hpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\SensorImpl.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\VideoModeImpl.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\WindowImplWin32.cpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\Window\Win32\WindowImplWin32.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\ZERO_CHECK.vcxproj">
+      <Project>{2AB3F5EB-6A85-330F-A172-9BF3E8CEF28F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{6FCD7005-DE4C-3771-9333-12F74212341B}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

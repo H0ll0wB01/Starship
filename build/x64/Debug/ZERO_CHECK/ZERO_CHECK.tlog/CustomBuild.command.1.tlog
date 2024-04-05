@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\DESKTOP\MIS PROYECTOS\JUEGO C++\C++ STARSHIP WITH SFML JAVIERFERNÁNDEZCORREA\BUILD\CMAKEFILES\ED0C0B2A4F38A8EF3A717A3A6992BAC8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea" "-BC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/Starship.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

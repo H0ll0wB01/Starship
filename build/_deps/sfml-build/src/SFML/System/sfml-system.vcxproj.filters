@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Clock.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Err.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Lock.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Mutex.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Sleep.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\String.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Thread.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\ThreadLocal.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Time.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\FileInputStream.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\MemoryInputStream.cpp" />
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\ClockImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\MutexImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\ThreadImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\ThreadLocalImpl.cpp">
+      <Filter>windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Clock.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Err.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Export.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\InputStream.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Lock.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Mutex.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\NativeActivity.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\NonCopyable.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Sleep.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\String.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\String.inl" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Thread.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Thread.inl" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\ThreadLocal.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\ThreadLocalPtr.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\ThreadLocalPtr.inl" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Time.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Utf.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Utf.inl" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Vector2.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Vector2.inl" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Vector3.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\Vector3.inl" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\FileInputStream.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\include\SFML\System\MemoryInputStream.hpp" />
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\ClockImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\MutexImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\SleepImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\ThreadImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\Win32\ThreadLocalImpl.hpp">
+      <Filter>windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-src\src\SFML\System\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="windows">
+      <UniqueIdentifier>{15A07D07-B8AD-357E-956A-2555A92446FD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

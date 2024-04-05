@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt

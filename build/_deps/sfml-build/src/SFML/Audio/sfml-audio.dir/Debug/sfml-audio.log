@@ -1,0 +1,23 @@
+﻿  1>Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt
+  ALCheck.cpp
+  AlResource.cpp
+  AudioDevice.cpp
+  Listener.cpp
+  Music.cpp
+  Sound.cpp
+  SoundBuffer.cpp
+  SoundBufferRecorder.cpp
+  InputSoundFile.cpp
+  OutputSoundFile.cpp
+  SoundRecorder.cpp
+  SoundSource.cpp
+  SoundStream.cpp
+  SoundFileFactory.cpp
+  SoundFileReaderFlac.cpp
+  SoundFileReaderOgg.cpp
+  SoundFileReaderWav.cpp
+  SoundFileWriterFlac.cpp
+  SoundFileWriterOgg.cpp
+  SoundFileWriterWav.cpp
+  Generando código...
+  sfml-audio.vcxproj -> C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\Debug\sfml-audio-s-d.lib

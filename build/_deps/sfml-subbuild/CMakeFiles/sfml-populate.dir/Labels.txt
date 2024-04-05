@@ -1,0 +1,14 @@
+# Target labels
+ sfml-populate
+# Source files and their labels
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/3d30565fa6c4db534e63ee776315057c/sfml-populate.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/e2efb4eb071ab9a4bf72b25dd4d42fc4/sfml-populate-complete.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-build.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-configure.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-download.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-install.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-mkdir.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-patch.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-test.rule
+C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-subbuild/CMakeFiles/4f4c14875a03f59ad227af039a4b3a84/sfml-populate-update.rule

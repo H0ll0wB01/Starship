@@ -1,0 +1,36 @@
+﻿  1>Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-src/src/SFML/Graphics/CMakeLists.txt
+  BlendMode.cpp
+  Color.cpp
+  Font.cpp
+  Glsl.cpp
+  GLCheck.cpp
+  GLExtensions.cpp
+  Image.cpp
+  ImageLoader.cpp
+  RenderStates.cpp
+  RenderTexture.cpp
+  RenderTarget.cpp
+  RenderWindow.cpp
+  Shader.cpp
+  Texture.cpp
+  TextureSaver.cpp
+  Transform.cpp
+  Transformable.cpp
+  View.cpp
+  Vertex.cpp
+  GLLoader.cpp
+  Generando código...
+  Compilando...
+  Shape.cpp
+  CircleShape.cpp
+  RectangleShape.cpp
+  ConvexShape.cpp
+  Sprite.cpp
+  Text.cpp
+  VertexArray.cpp
+  VertexBuffer.cpp
+  RenderTextureImpl.cpp
+  RenderTextureImplFBO.cpp
+  RenderTextureImplDefault.cpp
+  Generando código...
+  sfml-graphics.vcxproj -> C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\_deps\sfml-build\lib\Debug\sfml-graphics-s-d.lib

@@ -1,0 +1,10 @@
+^C:\USERS\USUARIO\DESKTOP\MIS PROYECTOS\JUEGO C++\C++ STARSHIP WITH SFML JAVIERFERNÁNDEZCORREA\BUILD\_DEPS\SFML-SRC\SRC\SFML\AUDIO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea" "-BC:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build" --check-stamp-file "C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/build/_deps/sfml-build/src/SFML/Audio/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

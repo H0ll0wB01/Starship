@@ -1,0 +1,13 @@
+﻿  1>Building Custom Rule C:/Users/Usuario/Desktop/Mis proyectos/Juego C++/C++ Starship with SFML JavierFernándezCorrea/CMakeLists.txt
+  main.cpp
+  Game.cpp
+  Bullet.cpp
+  Player.cpp
+  Enemy.cpp
+  DefaultEnemy.cpp
+  TankEnemy.cpp
+  FastEnemy.cpp
+  Bomb.cpp
+  Generando código...
+C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\source\Player.cpp(42): warning C4172: devolución de dirección de la variable local o temporal
+  SfmlWithCMake.vcxproj -> C:\Users\Usuario\Desktop\Mis proyectos\Juego C++\C++ Starship with SFML JavierFernándezCorrea\build\Debug\SfmlWithCMake.exe
